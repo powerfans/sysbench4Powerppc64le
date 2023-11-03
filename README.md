@@ -6,4 +6,4 @@ CFLAGS="-O3 -pthread " \
 CXXFLAGS="-O3 -pthread " \
 LDFLAGS="-ldl" \
 ./configure --prefix=/opt/sysbench --without-mysql --build=ppc64le 
-
+make && make install
